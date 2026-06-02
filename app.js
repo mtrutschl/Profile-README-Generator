@@ -19,4 +19,7 @@ document.getElementById('generate-button').addEventListener('click', () => {
     }
 
     if (github || linkedin || instagram)
+    {
+        markdown += `## 🌐 Connect with Me 🌐\n<p align = "left">\n`;
+    }
 });
