@@ -10,5 +10,32 @@
     <header>
         <h1>GitHub Profile README.md Generator</h1>
     </header>
+
+    <main class= "container">
+        <section class = "form-section">
+            <form id = "readme-form">
+                <h3>1. Introduction</h3>
+                <input type = "text" id = "name" placeholder = "Your Name" required>
+                <input type = "text" id = "subtitle" placeholder = "Subtitle (e.g., A passionate frontend developer)">
+
+                <h3>2. About Me</h3>
+                <textarea id = "about" placeholder = "I am a part of [organization]... I am currently working on... I want to learn... Ask me about..."></textarea>
+
+                <h3>3. Socials (Usernames Only)</h3>
+                <input type = "text" id = "github-user" placeholder = "Github Username">
+                <input type = "text" id = "linkedin-user" placeholder = "LinkedIn Username">
+                <input type = "text" id = "instagram-user" placeholder = "Instagram Username">
+
+                <button type = "button" id = "generate-button">Generate README.md</button>
+            </form>
+        </section>
+
+        <section class = "output-section">
+            <h3>Your Generated Markdown</h3>
+            <textarea id = "output-code" readonly placeholder = "Your code will appear here..."></textarea>
+            <button id = "copy-button">Copy to Clipboard</button>
+        </section>
+    </main>
+    <script src = "app.js"></script>
 </body>    
 </html>
