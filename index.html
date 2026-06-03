@@ -20,8 +20,33 @@
         <label>Name:</label>
         <input type = "text" id = "username" placeholder = "Your Name">
         <label>About Me / Bio:</label>
-        <textarea id = "bio-user" placeholder = "I am learning web development and love open source!"></textarea>
+        <textarea id = "bio-user" placeholder = "I currently work for [organization]... I am currently working on... I want to learn... Ask me about..."></textarea>
+        
         <label>GitHub Username:</label>
-        <input type = "text" id = "github-user" placeholder = "Your Username">
+        <input type = "text" id = "github-user" placeholder = "Your GitHub Username">
+        <label>LinkedIn Username:</label>
+        <input type = "text" id = "linkedin-user" placeholder = "Your LinkedIn Username">
+        <label>Instagram Username:</label>
+        <input type = "text" id = "instagram-user" placeholder = "Your Instagram Username">
+
+        <h3>Your Skills (Check all that apply)</h3>
+        <input type = "checkbox" id = "checkPython"> Python <br>
+        <input type = "checkbox" id = "checkJS"> JavaScript <br>
+        <input type = "checkbox" id = "checkJava"> Java <br>
+        <input type = "checkbox" id = "checkC#"> C# <br>
+        <input type = "checkbox" id = "checkC++"> C++ <br>
+        <input type = "checkbox" id = "checkHtmlCSS"> HTML and CSS <br>
+        <input type = "checkbox" id = "checkSwift"> Swift <br>
+
+        <br>
+        <button id = "create-button">Generate my README.md file!</button>
     </div>
+
+    <div class = "box">
+        <h3>Copy Your README.md Code From Here:</h3>
+        <textarea id = "resultBox" readonly placeholder = "Your code will show up here..."></textarea>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
 </html>
